@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="349.873" height="319.036" viewBox="0 0 349.873 319.036">
+  <g id="Flower_Group_1" data-name="Flower Group 1" transform="translate(67.708 -3074.892)">
+    <g id="Group_1109" data-name="Group 1109" transform="translate(-1514.138 -4087.464)">
+      <g id="Group_1089" data-name="Group 1089" transform="translate(1446.431 7162.355)">
+        <g id="Group_1088" data-name="Group 1088" transform="translate(0 0)">
+          <ellipse id="Ellipse_40" data-name="Ellipse 40" cx="53.752" cy="68.411" rx="53.752" ry="68.411" transform="translate(28.232 45.582) rotate(-22)" fill="#f6e5de"/>
+          <ellipse id="Ellipse_43" data-name="Ellipse 43" cx="53.752" cy="68.411" rx="53.752" ry="68.411" transform="translate(86.87 192.177) rotate(-22)" fill="#f6e5de"/>
+          <ellipse id="Ellipse_44" data-name="Ellipse 44" cx="53.752" cy="68.411" rx="53.752" ry="68.411" transform="matrix(0.574, 0.819, -0.819, 0.574, 112.078, 97.993)" fill="#f6e5de"/>
+          <ellipse id="Ellipse_42" data-name="Ellipse 42" cx="53.752" cy="68.411" rx="53.752" ry="68.411" transform="translate(148.076 199.55) rotate(-70)" fill="#f6e5de"/>
+          <ellipse id="Ellipse_41" data-name="Ellipse 41" cx="63.525" cy="68.411" rx="63.525" ry="68.411" transform="translate(165.317 0) rotate(29)" fill="#f6e5de"/>
+        </g>
+        <circle id="Ellipse_45" data-name="Ellipse 45" cx="34.206" cy="34.206" r="34.206" transform="translate(118.356 127.97)" fill="#af906c"/>
+      </g>
+    </g>
+    <g id="Group_1110" data-name="Group 1110" transform="matrix(0.035, -0.999, 0.999, 0.035, -6989.741, 4587.333)">
+      <g id="Group_1089-2" data-name="Group 1089" transform="translate(1446.431 7162.355)">
+        <g id="Group_1088-2" data-name="Group 1088" transform="translate(0 0)">
+          <ellipse id="Ellipse_40-2" data-name="Ellipse 40" cx="10.535" cy="13.408" rx="10.535" ry="13.408" transform="translate(5.533 8.934) rotate(-22)" fill="#fff"/>
+          <ellipse id="Ellipse_43-2" data-name="Ellipse 43" cx="10.535" cy="13.408" rx="10.535" ry="13.408" transform="translate(17.026 37.665) rotate(-22)" fill="#fff"/>
+          <ellipse id="Ellipse_44-2" data-name="Ellipse 44" cx="10.535" cy="13.408" rx="10.535" ry="13.408" transform="matrix(0.574, 0.819, -0.819, 0.574, 21.966, 19.205)" fill="#fff"/>
+          <ellipse id="Ellipse_42-2" data-name="Ellipse 42" cx="10.535" cy="13.408" rx="10.535" ry="13.408" transform="translate(29.021 39.109) rotate(-70)" fill="#fff"/>
+          <ellipse id="Ellipse_41-2" data-name="Ellipse 41" cx="12.45" cy="13.408" rx="12.45" ry="13.408" transform="translate(32.4 0) rotate(29)" fill="#fff"/>
+        </g>
+        <circle id="Ellipse_45-2" data-name="Ellipse 45" cx="6.704" cy="6.704" r="6.704" transform="translate(23.196 25.081)" fill="#ae8e77"/>
+      </g>
+    </g>
+  </g>
+</svg>
