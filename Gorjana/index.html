@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> gorjana </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!---- announcement-bar-section ---->
+    <div class="announcement-bar-section">
+        <div class="container">
+            <div class="announcement-bar d-flex">
+                <div class="location-icon">
+                    <a href="javascript:void(0);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                            <path stroke="#283045" stroke-width="1.5"
+                                d="M16.666 8.333A6.665 6.665 0 0 0 10 1.667 6.665 6.665 0 0 0 3.34 8.7c.11 2.958 1.66 6.35 5.943 9.408.425.3 1.008.3 1.433 0C15 15.05 16.55 11.658 16.658 8.7c.008-.125.008-.242.008-.367Zm-4.899 1.768a2.496 2.496 0 0 0 0-3.535 2.497 2.497 0 0 0-4.078.81 2.497 2.497 0 0 0 1.354 3.268 2.497 2.497 0 0 0 2.724-.543Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="announcement-left-text">
+                    <a href="javascript:void(0);">Find a Store Near You</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- header-section ---->
+    <div class="header-section">
+        <div class="container">
+            <div class="header-wrapper d-flex a-i-center">
+                <!-------- sidebar -------->
+                <div id="main">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ </span>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Jewelry</a>
+                    <a href="#">Fine Jewelry</a>
+                    <a href="#">Best Sellers</a>
+                    <a href="#">New Arrivals</a>
+                    <a href="#">Gifts</a>
+                    <a href="#">Explore</a>
+                    <a href="#">For You</a>
+                    <div class="sign-in">
+                        <a href="javascript:void(0);">Sign In / Create Account</a>
+                    </div>
+                    <div class="contact d-flex a-i-center">
+                        <div class="contact-us">
+                            <a href="javascript:void(0);">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path
+                                        d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM144 448c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM304 64L80 64l0 320 224 0 0-320z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="contact-text">
+                            <p>Contact Us</p>
+                        </div>
+                    </div>
+                    <div class="location d-flex a-i-center">
+                        <div class="location-img">
+                            <a href="javascript:void(0);">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path
+                                        d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="location-text">
+                            <p>Find A Store</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-logo grid-6">
+                    <div class="side--logo">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/gorjana-logo.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="header-items">
+                    <ul class="header--item d-flex a-i-center">
+                        <li><a href="javascript:void(0);">Jewelry</a></li>
+                        <li><a href="javascript:void(0);">Fine Jewelry</a></li>
+                        <li><a href="javascript:void(0);">Best Sellers</a></li>
+                        <li><a href="javascript:void(0);">New Arrivals</a></li>
+                        <li><a href="javascript:void(0);">Gifts</a></li>
+                        <li><a href="javascript:void(0);">Explore</a></li>
+                        <li><a href="javascript:void(0);">For You</a></li>
+                    </ul>
+                </div>
+                <div class="header-icon grid-6 d-flex a-i-center">
+                    <div class="search-icon">
+                        <a href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24">
+                                <path vector-effect="non-scaling-stroke"
+                                    d="M10.93 4.292c-3.963 0-7.112 3.032-7.112 6.696 0 3.663 3.15 6.695 7.112 6.695 1.981 0 3.758-.757 5.04-1.972a.133.133 0 0 0 .005-.004c1.281-1.215 2.068-2.888 2.068-4.72 0-3.663-3.15-6.695-7.113-6.695Zm6.949 12.03c1.237-1.454 1.982-3.306 1.982-5.334 0-4.722-4.034-8.488-8.93-8.488C6.033 2.5 2 6.266 2 10.988c0 4.722 4.034 8.488 8.93 8.488a9.19 9.19 0 0 0 5.64-1.908l3.891 3.682a.918.918 0 0 0 1.286-.026.887.887 0 0 0-.027-1.267l-3.841-3.636Z"
+                                    fill="currentColor" fill-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="wish-icon">
+                        <a href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="none">
+                                <path
+                                    d="M4.409.18a5.319 5.319 0 0 0-2.822 1.43A5.318 5.318 0 0 0 .086 4.323c-.085.379-.114 1.512-.055 2.02.206 1.758 1.067 3.255 3.035 5.26 1.243 1.27 2.877 2.708 5.787 5.092l1.147.945 1.152-.945c5.246-4.308 7.173-6.243 8.148-8.167.545-1.078.732-1.961.695-3.252-.021-.725-.066-1-.25-1.553-.268-.813-.65-1.42-1.28-2.052-.633-.63-1.24-1.012-2.053-1.28-.621-.21-.871-.243-1.758-.243-.747 0-.842.007-1.218.099-1.122.265-1.983.776-2.95 1.747l-.486.49-.489-.49C8.551 1.03 7.683.511 6.583.25 6.248.172 6.086.158 5.439.143c-.52-.007-.84.004-1.03.037Zm1.36 1.177c.545.04 1.196.246 1.697.537.632.372 1.214.905 2.03 1.858.261.305.486.552.504.552.019 0 .243-.25.504-.552 1.299-1.52 2.163-2.116 3.4-2.355.4-.073 1.17-.077 1.563 0a4.064 4.064 0 0 1 2.174 1.17c.6.618.982 1.376 1.115 2.204.073.456.03 1.46-.088 1.953-.221.95-.703 1.836-1.586 2.921-.386.478-2.012 2.104-2.781 2.785-1.372 1.21-4.22 3.59-4.3 3.59-.074 0-2.62-2.118-4.103-3.417-.86-.75-2.56-2.44-2.98-2.958-.882-1.085-1.364-1.972-1.585-2.92-.118-.494-.162-1.498-.088-1.954a4.106 4.106 0 0 1 1.188-2.277 4.037 4.037 0 0 1 1.626-.979c.412-.129.993-.21 1.324-.184.063.004.236.019.387.026Z"
+                                    fill="#283045" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="head-text">
+                        <a href="javascript:void(0);">Sign In</a>
+                    </div>
+                    <div class="cart-icon">
+                        <a href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24">
+                                <path vector-effect="non-scaling-stroke"
+                                    d="M11.094 1.016C9.617 1.36 8.557 2.02 7.805 3.059c-.69.951-.973 1.864-.973 3.153v.846H4.638c-2.39 0-2.37 0-2.564.377C2.02 7.534 2 9.293 2 13.589c0 5.792.007 6.03.134 6.525.356 1.362 1.47 2.46 2.826 2.777.644.145 13.436.145 14.08 0 1.04-.245 2.034-1.018 2.51-1.95.457-.9.45-.747.45-7.391 0-4.27-.02-6.016-.074-6.115-.195-.377-.174-.377-2.557-.377h-2.201v-.813c0-.443-.047-1.005-.1-1.25a5.074 5.074 0 0 0-2.726-3.49c-.765-.39-1.14-.476-2.174-.496-.517-.013-1-.013-1.074.007Zm1.805 1.48c.732.186 1.141.417 1.718.992.82.807 1.135 1.626 1.141 2.922v.648H8.242V6.41c.006-1.296.322-2.115 1.14-2.922.571-.568.987-.806 1.692-.991a3.423 3.423 0 0 1 1.825 0ZM6.832 9.419c0 1.045.034 1.157.383 1.335.329.166.805.014.953-.304.04-.092.074-.555.074-1.077v-.926h7.516v.926c0 1.005.054 1.21.343 1.362a.745.745 0 0 0 .946-.199c.1-.119.12-.29.12-1.117v-.972h3.424v5.27c0 3.093-.027 5.46-.068 5.724-.114.754-.503 1.362-1.127 1.759-.658.41-.483.403-7.396.403s-6.738.006-7.396-.403c-.624-.397-1.013-1.005-1.127-1.759-.04-.264-.068-2.631-.068-5.725v-5.27h3.423v.972Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- hero-banner-section ---->
+    <div class="hero-banner-section">
+        <a href="javascript:void(0);">
+            <img src="assets/img/hero-banner-img.png">
+        </a>
+        <div class="small-container">
+            <div class="hero-banner-text">
+                <div class="hero-banner-section-text">
+                    <h3 class="hero-banner-title t-a-right">Fall Favorites</h3>
+                    <p class="hero-banner-description t-a-right">Our most-loved styles for the season ahead.</p>
+                    <div class="hero-banner-btn t-a-right">
+                        <a href="javascript:void(0);" class="hover-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- feature-collection-section ---->
+    <div class="feature-collection-section">
+        <div class="small-container">
+            <div class="feature-collection-wrapper d-flex">
+                <div class="feature-collection grid-4">
+                    <div class="feature-collection-img">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/Necklaces_1.jpg">
+                        </a>
+                    </div>
+                    <div class="feature-collection-img-title t-a-center">
+                        <a href="javascript:void(0);" class="hover-line">Necklaces</a>
+                    </div>
+                </div>
+                <div class="feature-collection grid-4">
+                    <div class="feature-collection-img">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/Earrings_2.jpg">
+                        </a>
+                    </div>
+                    <div class="feature-collection-img-title t-a-center">
+                        <a href="javascript:void(0);" class="hover-line">Earrings</a>
+                    </div>
+                </div>
+                <div class="feature-collection grid-4">
+                    <div class="feature-collection-img">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/Bracelets.3.jpg">
+                        </a>
+                    </div>
+                    <div class="feature-collection-img-title t-a-center">
+                        <a href="javascript:void(0);" class="hover-line">Bracelets</a>
+                    </div>
+                </div>
+                <div class="feature-collection grid-4">
+                    <div class="feature-collection-img">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/Rings_4.jpg">
+                        </a>
+                    </div>
+                    <div class="feature-collection-img-title t-a-center">
+                        <a href="javascript:void(0);" class="hover-line">Rings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- product-section ---->
+    <div class="product-section">
+        <div class="container">
+            <div class="product-section-title t-a-center">
+                <h3>Best Sellers</h3>
+            </div>
+        </div>
+    </div>
+    <div class="product--section">
+        <div class="small-container">
+            <div class="product-wrapper d-flex">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="product-content swiper-slide grid-3">
+                            <div class="product-img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/JAN24_PRO-1.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/241-back-1.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h5>Amour Bracelet</h5>
+                                <p>$58.00</p>
+                                <div class="product-img-label">
+                                    <a href="javascript:void(0);" class="btn">Add to Bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content swiper-slide grid-3">
+                            <div class="product-img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/224-2-image.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/224-back-2.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h5>Pearl Newport Bracelet</h5>
+                                <p>$188.00</p>
+                                <div class="product-img-label">
+                                    <a href="javascript:void(0);">Add to Bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content swiper-slide grid-3">
+                            <div class="product-img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/196-3-image.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/back-3.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h5>Parker Necklace</h5>
+                                <p>from $70.00</p>
+                                <div class="product-img-label">
+                                    <a href="javascript:void(0);">Add to Bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content swiper-slide grid-3">
+                            <div class="product-img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/Rings_4.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/back-4.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h5>Wilder Mini Alphabet Necklace</h5>
+                                <p>$58.00</p>
+                                <div class="product-img-label">
+                                    <a href="javascript:void(0);">Add to Bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content swiper-slide grid-3">
+                            <div class="product-img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/Alph_Mini-5-image.jpg">
+                                </a>
+                                <div class="overlay">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/back-5.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h5>Wilder Mini Alphabet Bracelet</h5>
+                                <p>$50.00</p>
+                                <div class="product-img-label">
+                                    <a href="javascript:void(0);">Add to Bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content swiper-slide grid-3">
+                            <div class="product-img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/219-6-image.png">
+                                </a>
+                                <div class="overlay">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/back-6.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h5>14k Gold Classic Huggies</h5>
+                                <p>from $98.00</p>
+                                <div class="product-img-label">
+                                    <a href="javascript:void(0);">Add to Bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content swiper-slide grid-3">
+                            <div class="product-img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/GJ-image-7.png">
+                                </a>
+                                <div class="overlay">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/back-7.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h5>Newport Birthstone Bracelet</h5>
+                                <p>$188.00</p>
+                                <div class="product-img-label">
+                                    <a href="javascript:void(0);">Add to Bag</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- banner-section ---->
+    <div class="banner--section">
+        <a href="javascript:void(0);">
+            <img src="assets/img/SecondaryHero_image.jpg">
+        </a>
+        <div class="small-container">
+            <div class="banner--section-text">
+                <h3 class="banner--tilte t-a-left">The Classics</h3>
+                <p class="banner--description t-a-left">The MVPs, The Must-Haves, The Essentials</p>
+                <div class="hero-banner-btn t-a-left">
+                    <a href="javascript:void(0);" class="hover-btn">Shop The Collection</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- testimonial-section ---->
+    <div class="testimonial-section d-flex">
+        <div class="testimonial-text-with-img grid-2">
+            <div class="testimonial">
+                <div class="testimonial-heading-text t-a-center">
+                    <h6>COME SHOP WITH US</h6>
+                    <h3>Visit Us In Store</h3>
+                    <div class="testimonial--img">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/Store_1.jpg">
+                        </a>
+                    </div>
+                    <div class="testimonial-img-description">
+                        <p>Visit us in one of our 80+ stores across the U.S. and meet our incredible team of stylists,
+                            try on new jewelry and enjoy complimentary gift wrapping. </p>
+                    </div>
+                    <div class="testimonial-btn">
+                        <a href="javascript:void(0);" class="btn">Find a Store</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-img grid-2">
+            <a href="javascript:void(0);">
+                <img src="assets/img/MainStore_2.jpg">
+            </a>
+        </div>
+    </div>
+
+    <!---- news-letter-section ---->
+    <div class="news-letter-section">
+        <div class="small-container">
+            <div class="news-letter-wrapper d-flex">
+                <div class="news-letter grid-3">
+                    <h3 class="news-letter-title">Pick Up In Store</h3>
+                    <p class="news-letter-description">Choose "Pick Up" at checkout to view all of our locations and
+                        select the location where you'd like to pick up your order.fault text.</p>
+                </div>
+                <div class="news-letter grid-3">
+                    <h3 class="news-letter-title">Free Shipping & Returns</h3>
+                    <p class="news-letter-description">We offer free standard shipping on all orders within the U.S. and
+                        Puerto Rico. Returns are accepted on all unworn items within 30 days of purchase.</p>
+                </div>
+                <div class="news-letter grid-3">
+                    <h3 class="news-letter-title">Complimentary Gift Wrap</h3>
+                    <p class="news-letter-description">A good gift is gold. We offer complimentary gift wrap in stores
+                        and online year-round. Choose your gift wrap and personalize a gift note at checkout. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- footer ---->
+    <div class="footer-section">
+        <div class="container">
+            <div class="footer-wrapper d-flex">
+                <div class="footer-about grid-3">
+                    <h5>Stay Connected</h5>
+                    <p>Get insider information about exclusive offers, events and more.</p>
+                    <div class="footer-about-btn">
+                        <a href="javascript:void(0);">SIGN UP FOR EMAIL</a>
+                    </div>
+                </div>
+                <div class="footer-menu grid-3">
+                    <h4>FAQ</h4>
+                    <ul>
+                        <li><a href="javascript:void(0);">Contact Us</a></li>
+                        <li><a href="javascript:void(0);">Shipping & Returns</a></li>
+                        <li><a href="javascript:void(0);">Store Locator</a></li>
+                        <li><a href="javascript:void(0);">Wholesale</a></li>
+                        <li><a href="javascript:void(0);">Careers</a></li>
+                        <li><a href="javascript:void(0);">Download Our App</a></li>
+                    </ul>
+                </div>
+                <div class="footer-news-letter grid-3">
+                    <h5>Contact Us</h5>
+                    <p>866.829.0030</p>
+                    <a href="javascript:void(0);" class="btn">customercare@gorjana.com</a>
+                    <div class="social-media-icon-footer d-flex">
+                        <a href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path
+                                    d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <!---- footer-show ---->
+                    <div class="footer-show-icon">
+                        <div class="footer-show-text">
+                            <p>Download Mobile App</p>
+                        </div>
+                        <div class="show-icon d-flex">
+                            <a href="javascript:void">
+                                <img src="assets/img/appstore_1.png">
+                            </a>
+                            <a href="javascript:void(0);">
+                                <img src="assets/img/googleplay_2.png">
+                            </a>
+                        </div>
+                    </div>
+                    <!------->
+                </div>
+            </div>
+            <div class="footer-bottom d-flex">
+                <div class="bottom-left">
+                    <p class="left-text">© 2024 gorjana & Griffin, Inc. All rights reserved</p>
+                </div>
+                <div class="bottom-right">
+                    <a href="javascript:void(0);">Accessibility</a>
+                    <span>|</span>
+                    <a href="javascript:void(0);">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="javascript:void(0);">Terms</a>
+                    <span>|</span>
+                    <a href="javascript:void(0);">Do Not Share My Information</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
